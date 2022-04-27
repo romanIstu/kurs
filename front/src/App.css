@@ -1,0 +1,30 @@
+body {
+  color: #dee2e6;
+  background-image: url('./images/bg2.jpg');
+  background-size:  calc(min(100vw, 100%));
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #000;
+}
+
+.not_found {
+  width: 100%;
+  height: auto;
+  min-height: 80vh;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center
+}
+
+/* .accordion-button:not(.collapsed), .accordion-button {
+  color: #fff !important;
+  background-color: #0d6efd !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #fff !important;
+  background-color: #0dcaf0 !important;
+} */
+
